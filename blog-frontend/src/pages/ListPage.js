@@ -1,7 +1,0 @@
-import React, { Component } from "react";
-
-const ListPage = () => {
-  return <div>List</div>;
-};
-
-export default ListPage;
