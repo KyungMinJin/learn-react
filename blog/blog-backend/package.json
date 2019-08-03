@@ -10,7 +10,7 @@
   "devDependencies": {
     "eslint": "^6.1.0",
     "eslint-plugin-react": "^7.14.3",
-    "nodemon": "1.19.1"
+    "nodemon": "^1.19.1"
   },
   "scripts": {
     "start": "node src",
