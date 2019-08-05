@@ -60,7 +60,7 @@ function counter(state = initialState, action) {
             ...counters[action.index],
             color: action.color
           },
-          ...counter.slice(action.index + 1, counters.length)
+          ...counters.slice(action.index + 1, counters.length)
         ]
       };
     default:
