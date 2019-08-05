@@ -9,12 +9,12 @@ class TodoList extends Component {
     const { todos, onToggle, onRemove } = this.props;
     const todoList = todos.map(todo => (
       <TodoItem
-        key={todo.id}
-        done={todo.done}
-        onToggle={() => onToggle(todo.id)}
-        onRemove={() => onRemove(todo.id)}
+        key={todo.get("id")}
+        done={todo.get("done")}
+        onToggle={() => onToggle(todo.get("id"))}
+        onRemove={() => onRemove(todo.get("id"))}
       >
-        {todo.text}
+        {todo.get("text")}
       </TodoItem>
     ));
     return <div>{todoList}</div>;
