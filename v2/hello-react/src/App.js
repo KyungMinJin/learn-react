@@ -6,6 +6,7 @@ import Say from "./Say";
 import EventPracticeF from "./EventPracticeF";
 import ValidationSample from "./ValidationSample";
 import ScrollBox from "./ScrollBox";
+import IterationSample from "./IterationSample";
 
 class App extends Component {
   // const style = {
@@ -37,6 +38,7 @@ class App extends Component {
           맨 밑으로
         </button>
         {/* 5장 */}
+        <IterationSample /> {/* 5장 */}
       </>
     );
   }
