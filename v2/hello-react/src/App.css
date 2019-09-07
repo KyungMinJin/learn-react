@@ -1,0 +1,8 @@
+.react {
+  /* background-color는 - 사라지고 카멜 표기법으로 작성됩니다. */
+  background: aqua;
+  color: black;
+  font-size: 48px;
+  font-weight: bold;
+  padding: 16px; /*단위 생략 시 px */
+}
