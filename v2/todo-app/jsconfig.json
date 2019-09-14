@@ -1,0 +1,6 @@
+{
+  // import 자동 완성
+  "compilerOptions": {
+    "target": "es6"
+  }
+}
