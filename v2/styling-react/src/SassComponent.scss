@@ -1,0 +1,39 @@
+@import "./style/utils.scss";
+
+.SassComponent {
+  display: flex;
+  .box {
+    // 일반 css에서는 .SassComponent .box
+    background: red;
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+    &.red {
+      // .red 가 .box 와 같이 사용되었을 때
+      background: $red;
+      @include sqaure(1);
+    }
+    &.yellow {
+      background: $yellow;
+      @include sqaure(3);
+    }
+    &.green {
+      background: $green;
+      @include sqaure(4);
+    }
+    &.blue {
+      background: $blue;
+      @include sqaure(5);
+    }
+    &.indigo {
+      background: $indigo;
+      @include sqaure(6);
+    }
+    &.violet {
+      background: $violet;
+      @include sqaure(7);
+    }
+    &:hover {
+      background: black;
+    }
+  }
+}
